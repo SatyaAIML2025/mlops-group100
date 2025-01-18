@@ -40,9 +40,9 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      - name: Run tests
+      - name: Run code
         run: |
-          code
+          pytest
 
   deploy:
     runs-on: ubuntu-latest
