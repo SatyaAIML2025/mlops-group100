@@ -26,7 +26,7 @@ jobs:
       - name: Lint code with pylint
         run: |
           pip install pylint
-          pylint model.py
+          pylint gnn1.ipjnb
 
   test:
     runs-on: ubuntu-latest
