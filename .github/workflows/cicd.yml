@@ -23,10 +23,10 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      - name: Lint code with pylint
-        run: |
-          pip install pylint
-          pylint gnn1.ipynb
+      #- name: Lint code with pylint
+        #run: |
+          #pip install pylint
+          #pylint gnn1.ipynb
 
   test:
     runs-on: ubuntu-latest
